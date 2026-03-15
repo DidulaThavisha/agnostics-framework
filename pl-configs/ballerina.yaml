@@ -1,6 +1,4 @@
 prompt: Use the latest stable Ballerina release. Read input from stdin and print output to stdout.
-install: |
-  # Ballerina SDK is included in the base image; if additional packages are needed, install here.
-  true
+install: "true"
 filename: snippet.bal
 execute: bal run snippet.bal
